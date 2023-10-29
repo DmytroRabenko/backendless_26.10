@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, redirect, useNavigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import LazyLoadComponent from '../lazyLoudComponent/lazyLoudComponent';
 import Layout from '../layout/layout';
 import tabs from '../../tabs/tabs.json';
